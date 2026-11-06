@@ -118,35 +118,36 @@ Nếu phần còn nhìn thấy không đủ để xác định chính xác class
 Chỉ dùng ảnh `sample_id = kitchen`. Chọn **một** record.
 
 1. Chép một record: `instance_id`=… ; `class_name`=… ; `score`=… ; số điểm polygon=`polygon_point_count`=… ; 3–5 điểm đầu của `polygon_xy`=…
-{
-    "instance_id": "kitchen-011",
-    "class_name": "spoon",
-    "score": 0.359147,
-    "polygon_point_count": 37,
-    "polygon_xy": [
-      [
-        529.0,
-        66.0
-      ],
-      [
-        529.0,
-        72.0
-      ],
-      [
-        528.0,
-        73.0
-      ],
-      [
-        528.0,
-        74.0
-      ],
-      [
-        527.0,
-        75.0
-      ]
-    ]
-}
-
+[
+	{
+	    "instance_id": "kitchen-011",
+	    "class_name": "spoon",
+	    "score": 0.359147,
+	    "polygon_point_count": 37,
+	    "polygon_xy": [
+	      [
+	        529.0,
+	        66.0
+	      ],
+	      [
+	        529.0,
+	        72.0
+	      ],
+	      [
+	        528.0,
+	        73.0
+	      ],
+	      [
+	        528.0,
+	        74.0
+	      ],
+	      [
+	        527.0,
+	        75.0
+	      ]
+	    ]
+	}
+]
 2. So với box, polygon cho thêm thông tin gì về hình dạng vật thể?
 - Polygon cung cấp thêm thông tin như là hình dáng, đường biên, diện tích, mức độ che khuất
 3. `instance_id` dùng để làm gì? Nó **không** phải class ID và **không** phải tracking ID — bạn hiểu câu này thế nào?
